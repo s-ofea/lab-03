@@ -39,19 +39,19 @@ Are there missing values?
 
 ```{r}
 # which columns are integer
-
+"year, month, day, dep_time, sched_dep_time, dep_delay, arr_delay, air_time, flight, distance, hour, minute"
 
 # which columns are double
-
+"nil"
 
 # which columns are character
-
+"tailnum, origin, dest"
 
 ```
 
 ```{r}
 # which columns contain NA's
-
+"none"
 ```
 
 **Summary:**  
@@ -63,8 +63,7 @@ _Use this space to summarize what you attempted, either from your own exploratio
 Did the GenAI explanation (if used) help you? Which language model you explored? 
 What was clear or unclear? Did it make any errors or skip anything important? Did you fact-check? Did you need to provide follow-up prompts or clarifications, or was the first response sufficient?
 
-_Your answer here_
-
+Sure. ChatGPT. It was clear as it gave examples for each part of the question and broke down the meanings of each function, but was unclear as it lacked depth. We don't think so? Yes.
 ---
 
 # 2. Delays & Weather
